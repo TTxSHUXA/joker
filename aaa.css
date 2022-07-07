@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.box{
+    width: 100%;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+.navbar>img{
+    padding-left: 30px;
+}
+.col{
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+    list-style-type: none;
+    padding-left: 450px;
+    color: #161513;
+}
+.item{
+    padding-right: 20px;
+    position: relative;
+    cursor: pointer;
+}
+.item::before{
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    content: "";
+    bottom: -5px;
+    transition: 0.5s;
+    transform: scale(0);
+}
+.item:hover::before{
+    transition: 0.5s;
+    transform: scale(1);
+}
+.navbar>button{
+    margin-left: -300px;
+    width: 126px;
+    height: 42px;
+}
+.text_img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.text{
+    width: 50%;
+    height: 100%;
+    font-size: 25px;
+    padding-top: 80px;
+    padding-left: 30px;
+}
+.img{
+    width: 50%;
+    height: 100%;
+}
+.deg{
+    display: flex;
+    list-style-type: none;
+    padding-top: 40px
+}
+.deg>li{
+padding-right: 20px;
+}
+.text_btn{
+    width: 179px;
+    height: 50px;
+    background-color: #161513;
+    margin-top: 40px;
+    color: #ffffff;
+    transition: 0.5s;
+}
+.text_btn:hover{
+    background-color: rgb(68, 65, 65);
+    transition: 0.5s;
+    border: none;
+}
+.text_btn2{
+    width: 144px;
+    height: 50px;
+    margin-left: -10px;
+    color: #161513;
+    overflow: none;
+}
+.img_img{
+    margin-left: 70px;
+}
+.nav{
+    transform: rotate(-10deg);
+    margin-top: 150px;
+    width: 100%;
+    height: 100px;
+    background-color:#161513;
+    color: #ffffff;
+    transition: 0.5s;
+}
+.nav:hover{
+    transform: rotate(-0deg);
+    transition: 0.5s;
+}
+.nav_ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-top: 45px;
+}
+
+.lead{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    margin-top: 200px;
+}
+.lead_text{
+    width: 50%;
+    height: 100vh;
+}
+.lead_text2{
+    width: 50%;
+    height: 100vh;
+}
+.lead_text>h3{
+    padding-left: 30px;
+    padding-top: 50px;
+    font-size: 23px;
+}
+.lead_text>p{
+    font-size: 80px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.lead_text2>p{
+    font-size: 35px;
+    padding-top: 80px;
+    padding-left: 20px;
+}
+.lead_text2>h5{
+    font-size: 18px;
+    padding-left: 20px;
+    padding-top: 30px;
+    line-height: 28px;
+    color: #161513;
+}
+.new{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    line-height: 25px;
+}
+
+.new_york{
+    width: 200px;
+    height: 100%;
+}
+.new_york>p{
+    font-size: 12px;
+padding-top: 50px;
+color: #E94D35;
+}
+.new_york>h3{
+    font-size: 23px;
+    color: #161513;
+}
+.two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+}
+.card{
+    width: 352px;
+    height: 152px;
+    text-align: center;
+    padding-top: 25px;
+    border: 1px solid black;
+}
+.card>h1{
+    font-size: 60px;
+    color: #161513;
+}
+.card>p{
+    font-size: 20px;
+    color: #161513;
+}
+.card2{
+    width: 352px;
+    height: 152px;
+    text-align: center;
+    padding-top: 25px;
+    background-color: #161513;
+}
+.card2>h1{
+    font-size: 60px;
+    color: #ffffff;
+}
+.card2>p{
+    font-size: 18px;
+    color: #ffffff;
+}
+.awar{
+    text-align: center;
+    line-height: 40px;
+    margin-top: 100px;
+    width: 100%;
+    height: 200px;
+ }
+.awar_p{
+    font-size: 45px;
+}
+.awar_p2{
+    font-size: 18px;
+}
+.web{
+    width: 100%;
+    height: 100vh;
+}
+
+.web_cart{
+    width: 100%;
+    height: 140px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+.web_cart>img{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.web_text{
+    width: 600px;
+    height: 60px;
+    margin-left: 90px;
+    margin-top: -60px;
+    padding-left: -50px;
+    line-height: 35px;
+    font-size: 23px;
+    background-color: #ffffff;
+}
+.pro{
+    text-align: end;
+    margin-top: -30px;
+}
+
